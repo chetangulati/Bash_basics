@@ -7,3 +7,9 @@ echo "${os[@]}"
 echo "${os[0]}"
 echo "${!os[@]}"
 echo "${#os[@]}"
+
+# Initializing an array during declaration
+declare -a arrayname=(e1 e2 e3)
+
+ # Print the Whole Bash Array
+ echo ${Unix[@]} 
